@@ -6,7 +6,6 @@ function object(obj) {
     return new F()
 }
 
-
 // eg
 let person = {
     name: 'lee',

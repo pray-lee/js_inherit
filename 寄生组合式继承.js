@@ -21,4 +21,11 @@ function SubType(name, age) {
     this.age = age
 }
 
+// 将父类原型指向子类
 inheritPrototype(SubType, SuperType)
+
+// 新增子类原型属性
+SubType.prototype.sayAge = function() {
+    console.log(this.age)
+}
+
